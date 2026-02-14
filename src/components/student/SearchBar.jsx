@@ -1,9 +1,12 @@
 import React from 'react'
+import { assets } from '../../assets/assets'
 
 const SearchBar = () => {
   return (
     <div>
-      <h1>SearchBar</h1>
+      <form action="">
+        <img src={assets.search_icon} alt="search_icon"  className='md:w'/>
+      </form>
     </div>
   )
 }
