@@ -1,14 +1,16 @@
-import React from 'react'
-import Hero from '../../components/student/Hero'
-import Companies from '../../components/student/Companies'
+import React from "react";
+import Hero from "../../components/student/Hero";
+import Companies from "../../components/student/Companies";
+import CourseSection from "../../components/student/CourseSection";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <Companies />
+      <CourseSection />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
